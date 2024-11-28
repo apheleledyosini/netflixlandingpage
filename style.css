@@ -1,0 +1,173 @@
+/*First Section */
+
+
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/* Universal Reset */
+* 
+   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;}
+
+
+
+/* Banner Wrapper */
+.banner-wrapper 
+   {position: relative;
+    height: 70vh;
+    width: 100vw;
+    }
+   
+    
+
+/* Overlay Styling */    
+.overlay 
+   {background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;}
+    
+
+
+/* Background Image Styling */
+.banner-wrapper .background-image 
+   {height: 100%;
+    width: 100%;
+    position: relative; 
+    border-bottom: 10px solid rgb(107, 107, 107);
+    overflow: hidden;}
+
+.banner-wrapper .background-image img 
+   {height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 150px solid rgb(rgb(107, 107, 107))}
+
+
+
+/* Navigation Bar Styling */
+.banner-wrapper .nav 
+   {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    width: calc(100% - 40px);
+    z-index: 1; 
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 20px;
+    margin: 25px;
+    padding: 0px 240px 25px;}
+
+
+
+/* Logo Styling */
+.banner-wrapper .nav > img
+   {height: 150px;}
+
+
+
+/* Button Styling */
+.banner-wrapper .nav > a
+   {color:white;
+    background-color: red;
+    padding: 5px 13px;
+    border-radius: 8px;
+    text-decoration-thickness: 10%;
+    text-decoration: none;
+    font-weight: 500;;}
+
+.banner-wrapper .nav > a a:hover
+    {cursor: pointer;
+     color: rgb(175, 175, 175);}
+
+
+
+/* Main Content Text Styling */
+.main-content
+    {display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    z-index: 2;
+    height: 90px;
+    margin-top: -220px;}
+
+.main-content h1 , p ,  h3
+   {color: white;}
+
+
+
+/* Form Styling */
+.get-started form 
+   {display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 5px;}
+
+
+/* Input Box Styling */
+.main-content input
+   {background-color: rgb(19, 18, 18);
+    border: 1px solid rgb(94, 94, 94);
+    color: white;
+    width: 300px;
+    height: 46px;
+    padding: 0 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    opacity: 0.7;
+    border: 1px color(srgb rgb(124, 124, 124));
+    color: white;}
+
+
+/* Main Content Button */
+.main-content button 
+   {display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color:white;
+    font-size: 15px;
+    padding: 0 15px;
+    border-radius: 5px;
+    height: 46px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;}
+
+
+/* Arrow On Button */
+.main-content button img 
+   {margin-left: 8px;
+    width: 16px;
+    height: 16px;
+    color: white;}
+
+
+
+/* Second Section */
+
+
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* 
+   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;}
+
+
+/*
